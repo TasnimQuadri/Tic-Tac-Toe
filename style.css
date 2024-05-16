@@ -1,0 +1,28 @@
+html{
+    font-size: 62.5%;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.gameContainer{
+    text-align: center;
+}
+.cell{
+    width: 7.5rem;
+    height: 7.5rem;
+    border: 2px solid;
+box-shadow: 0 0 0 2px;
+font-size: 5rem;
+cursor: pointer;
+}
+.cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    width: 22.5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
